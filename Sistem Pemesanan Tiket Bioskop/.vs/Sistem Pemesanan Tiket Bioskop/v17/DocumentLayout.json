@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\asus\\onedrive\\dokumen\\capek nugas\\semester 3\\perancangan dan analis algoritma\\tugas menuju fp\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\properties\\tiketvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\tiketvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\asus\\onedrive\\dokumen\\capek nugas\\semester 3\\perancangan dan analis algoritma\\tugas menuju fp\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\properties\\tiket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\tiket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\asus\\onedrive\\dokumen\\capek nugas\\semester 3\\perancangan dan analis algoritma\\tugas menuju fp\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\asus\\onedrive\\dokumen\\capek nugas\\semester 3\\perancangan dan analis algoritma\\tugas menuju fp\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\properties\\dompetdigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\dompetdigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\asus\\onedrive\\dokumen\\capek nugas\\semester 3\\perancangan dan analis algoritma\\tugas menuju fp\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\properties\\transferbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\transferbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\asus\\onedrive\\dokumen\\capek nugas\\semester 3\\perancangan dan analis algoritma\\tugas menuju fp\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\properties\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\asus\\onedrive\\dokumen\\capek nugas\\semester 3\\perancangan dan analis algoritma\\tugas menuju fp\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\properties\\jadwal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\jadwal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\asus\\onedrive\\dokumen\\capek nugas\\semester 3\\perancangan dan analis algoritma\\tugas menuju fp\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\properties\\tiketreguler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\tiketreguler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\asus\\onedrive\\dokumen\\capek nugas\\semester 3\\perancangan dan analis algoritma\\tugas menuju fp\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\properties\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\asus\\onedrive\\dokumen\\capek nugas\\semester 3\\perancangan dan analis algoritma\\tugas menuju fp\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\properties\\pengguna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\pengguna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\asus\\onedrive\\dokumen\\capek nugas\\semester 3\\perancangan dan analis algoritma\\tugas menuju fp\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DompetDigital.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\DompetDigital.cs",
+              "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\DompetDigital.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\DompetDigital.cs",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\DompetDigital.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:38:11.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransferBank.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TransferBank.cs",
+              "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\TransferBank.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TransferBank.cs",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\TransferBank.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:37:38.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pembayaran.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Pembayaran.cs",
+              "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\Pembayaran.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Pembayaran.cs",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\Pembayaran.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:36:34.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Jadwal.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Jadwal.cs",
+              "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\Jadwal.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Jadwal.cs",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\Jadwal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:35:35.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TiketVIP.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TiketVIP.cs",
+              "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\TiketVIP.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TiketVIP.cs",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\TiketVIP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:34:55.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TiketReguler.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TiketReguler.cs",
+              "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\TiketReguler.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TiketReguler.cs",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\TiketReguler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:34:10.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tiket.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Tiket.cs",
+              "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\Tiket.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Tiket.cs",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\Tiket.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwCEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:32:55.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Film.cs",
+              "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\Film.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Film.cs",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\Film.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:30:47.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:29:48.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pengguna.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Pengguna.cs",
+              "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\Pengguna.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Pengguna.cs",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\Pengguna.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:29:08.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Program.cs",
+              "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Program.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Dokumen\\Capek Nugas\\Semester 3\\Perancangan dan Analis Algoritma\\TUGAS MENUJU FP\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Program.cs",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwFUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:26:09.413Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
