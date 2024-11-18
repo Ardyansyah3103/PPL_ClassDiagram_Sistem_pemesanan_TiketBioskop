@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
 {
-    // Kelas Film
     public class Film
     {
         private string judul;
-        private int durasi; // dalam menit
+        private int durasi; 
         private string genre;
         private static List<Film> daftarFilm = new List<Film>();
 
@@ -22,9 +18,19 @@ namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
             daftarFilm.Add(this);
         }
 
-        public string GetInfo()
+        public string GetJudul()
         {
-            return $"Judul: {judul}, Durasi: {durasi} menit, Genre: {genre}";
+            return judul;
+        }
+
+        public int GetDurasi()
+        {
+            return durasi;
+        }
+
+        public string GetGenre()
+        {
+            return genre;
         }
 
         public static void TampilkanDaftarFilm()
@@ -32,7 +38,7 @@ namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
             Console.WriteLine("Daftar Film:");
             foreach (var film in daftarFilm)
             {
-                Console.WriteLine(film.GetInfo());
+                Console.WriteLine($"- Judul: {film.GetJudul()}, Durasi: {film.GetDurasi()} menit, Genre: {film.GetGenre()}");
             }
         }
     }

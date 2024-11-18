@@ -179,6 +179,24 @@
 											"height": 13,
 											"text": "-nomorTelepon: String",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGTP1tR4wXAlt8=",
+											"_parent": {
+												"$ref": "AAAAAAGTOoPUgRsjtzM="
+											},
+											"model": {
+												"$ref": "AAAAAAGTP1tR2gW9n8Y="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 565,
+											"top": 291,
+											"width": 383.60498046875,
+											"height": 13,
+											"text": "-daftarPengguna: List<Pengguna>",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
@@ -186,7 +204,7 @@
 									"left": 560,
 									"top": 241,
 									"width": 393.60498046875,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -210,7 +228,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 565,
-											"top": 299,
+											"top": 314,
 											"width": 383.60498046875,
 											"height": 13,
 											"text": "+Pengguna(nama: String, email: String, nomorTelepon: String)",
@@ -228,19 +246,37 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 565,
-											"top": 314,
+											"top": 329,
 											"width": 383.60498046875,
 											"height": 13,
 											"text": "+TampilkanPelanggan()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGTP3Vt1T59BU8=",
+											"_parent": {
+												"$ref": "AAAAAAGTOoPUgRskyiU="
+											},
+											"model": {
+												"$ref": "AAAAAAGTP3Vtzz56ZNo="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 565,
+											"top": 344,
+											"width": 383.60498046875,
+											"height": 13,
+											"text": "+prosesPembayaran(Tiket tiket, Pembayaran pembayaran)",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 560,
-									"top": 294,
+									"top": 309,
 									"width": 393.60498046875,
-									"height": 38
+									"height": 53
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -283,7 +319,7 @@
 							"left": 560,
 							"top": 216,
 							"width": 392.60498046875,
-							"height": 116,
+							"height": 146,
 							"nameCompartment": {
 								"$ref": "AAAAAAGTOoPUgRsemv4="
 							},
@@ -421,7 +457,7 @@
 											"top": 470,
 											"width": 280.728515625,
 											"height": 13,
-											"text": "#idTiket: String",
+											"text": "-idTiket: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -439,7 +475,7 @@
 											"top": 485,
 											"width": 280.728515625,
 											"height": 13,
-											"text": "#jenis: String",
+											"text": "-jenis: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -457,7 +493,61 @@
 											"top": 500,
 											"width": 280.728515625,
 											"height": 13,
-											"text": "#harga: double",
+											"text": "-harga: double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGTP3XZplHIyq0=",
+											"_parent": {
+												"$ref": "AAAAAAGTOoeEjxttdV0="
+											},
+											"model": {
+												"$ref": "AAAAAAGTP3XZoVHFJQc="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 925,
+											"top": 515,
+											"width": 280.728515625,
+											"height": 13,
+											"text": "-film: Film",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGTP3YpzlMBmg8=",
+											"_parent": {
+												"$ref": "AAAAAAGTOoeEjxttdV0="
+											},
+											"model": {
+												"$ref": "AAAAAAGTP3Ypy1L+HFY="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 925,
+											"top": 530,
+											"width": 280.728515625,
+											"height": 13,
+											"text": "-tiketTersedia: List<Tiket>",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGTP+3MsevthME=",
+											"_parent": {
+												"$ref": "AAAAAAGTOoeEjxttdV0="
+											},
+											"model": {
+												"$ref": "AAAAAAGTP+3MquvqI5I="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 925,
+											"top": 545,
+											"width": 280.728515625,
+											"height": 13,
+											"text": "-jadwal: Jadwal",
 											"horizontalAlignment": 0
 										}
 									],
@@ -466,7 +556,7 @@
 									"left": 920,
 									"top": 465,
 									"width": 290.728515625,
-									"height": 53
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -490,7 +580,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 925,
-											"top": 523,
+											"top": 568,
 											"width": 280.728515625,
 											"height": 13,
 											"text": "+Tiket(idTiket: String, jenis: String, harga: String)",
@@ -508,19 +598,37 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 925,
-											"top": 538,
+											"top": 583,
 											"width": 280.728515625,
 											"height": 13,
 											"text": "+TampilkanTiketTersedia()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGTP3baS1ReQdA=",
+											"_parent": {
+												"$ref": "AAAAAAGTOoeEjxtuC0k="
+											},
+											"model": {
+												"$ref": "AAAAAAGTP3baSFRbN9A="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 925,
+											"top": 598,
+											"width": 280.728515625,
+											"height": 13,
+											"text": "+HaputTiket(Tiket tiket)",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 920,
-									"top": 518,
+									"top": 563,
 									"width": 290.728515625,
-									"height": 38
+									"height": 53
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -563,7 +671,7 @@
 							"left": 920,
 							"top": 440,
 							"width": 289.728515625,
-							"height": 116,
+							"height": 176,
 							"nameCompartment": {
 								"$ref": "AAAAAAGTOoeEjxtoR9E="
 							},
@@ -610,7 +718,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 560,
-											"top": -352,
+											"top": -368,
 											"height": 13
 										},
 										{
@@ -622,7 +730,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 1181,
-											"top": 191,
+											"top": 183,
 											"width": 484.03759765625,
 											"height": 13,
 											"text": "Jadwal"
@@ -637,7 +745,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 560,
-											"top": -352,
+											"top": -368,
 											"width": 188.81103515625,
 											"height": 13,
 											"text": "(from Pemesanan Tiket Bioskop)"
@@ -652,7 +760,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 560,
-											"top": -352,
+											"top": -368,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -660,7 +768,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 1176,
-									"top": 184,
+									"top": 176,
 									"width": 494.03759765625,
 									"height": 25,
 									"stereotypeLabel": {
@@ -698,7 +806,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 1181,
-											"top": 214,
+											"top": 206,
 											"width": 484.03759765625,
 											"height": 13,
 											"text": "-idJadwal: String",
@@ -716,7 +824,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 1181,
-											"top": 229,
+											"top": 221,
 											"width": 484.03759765625,
 											"height": 13,
 											"text": "-waktuMulai: String",
@@ -734,7 +842,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 1181,
-											"top": 244,
+											"top": 236,
 											"width": 484.03759765625,
 											"height": 13,
 											"text": "-waktuSelesai: String",
@@ -752,7 +860,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 1181,
-											"top": 259,
+											"top": 251,
 											"width": 484.03759765625,
 											"height": 13,
 											"text": "-ruangan: String",
@@ -770,19 +878,55 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 1181,
-											"top": 274,
+											"top": 266,
 											"width": 484.03759765625,
 											"height": 13,
 											"text": "-tiketTerjual: List<Tiket>",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGTP3hiNoei7o4=",
+											"_parent": {
+												"$ref": "AAAAAAGTOoluthu9714="
+											},
+											"model": {
+												"$ref": "AAAAAAGTP3hiMIef/8A="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1181,
+											"top": 281,
+											"width": 484.03759765625,
+											"height": 13,
+											"text": "-film: Film",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGTP3iZvYivgBw=",
+											"_parent": {
+												"$ref": "AAAAAAGTOoluthu9714="
+											},
+											"model": {
+												"$ref": "AAAAAAGTP3iZuoisAZg="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1181,
+											"top": 296,
+											"width": 484.03759765625,
+											"height": 13,
+											"text": "-daftarJadwal: List<Jadwal>",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 1176,
-									"top": 209,
+									"top": 201,
 									"width": 494.03759765625,
-									"height": 83
+									"height": 113
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -806,7 +950,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 1181,
-											"top": 297,
+											"top": 319,
 											"width": 484.03759765625,
 											"height": 13,
 											"text": "+Jadwal(idJadwal: String, waktuMulai: String, waktuSelesai: String, ruangan: String)",
@@ -824,7 +968,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 1181,
-											"top": 312,
+											"top": 334,
 											"width": 484.03759765625,
 											"height": 13,
 											"text": "+tambahkanTiket(tiket: Tiket): void",
@@ -842,19 +986,37 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 1181,
-											"top": 327,
+											"top": 349,
 											"width": 484.03759765625,
 											"height": 13,
 											"text": "+TampilkanDaftarJadwal()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGTP3l0zYsBAwQ=",
+											"_parent": {
+												"$ref": "AAAAAAGTOoluthu+GJQ="
+											},
+											"model": {
+												"$ref": "AAAAAAGTP3l0xor+23Q="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1181,
+											"top": 364,
+											"width": 484.03759765625,
+											"height": 13,
+											"text": "+HapusJadwal()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 1176,
-									"top": 292,
+									"top": 314,
 									"width": 494.03759765625,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -869,7 +1031,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 280,
-									"top": -176,
+									"top": -184,
 									"width": 10,
 									"height": 10
 								},
@@ -886,7 +1048,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 280,
-									"top": -176,
+									"top": -184,
 									"width": 10,
 									"height": 10
 								}
@@ -895,9 +1057,9 @@
 							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 1176,
-							"top": 184,
+							"top": 176,
 							"width": 493.03759765625,
-							"height": 161,
+							"height": 206,
 							"nameCompartment": {
 								"$ref": "AAAAAAGTOolutRu4Xw8="
 							},
@@ -1073,6 +1235,24 @@
 											"height": 13,
 											"text": "-genre: String",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGTP3esAoAvsP0=",
+											"_parent": {
+												"$ref": "AAAAAAGTOo/ZZBw5lIs="
+											},
+											"model": {
+												"$ref": "AAAAAAGTP3er+4AsFGE="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1413,
+											"top": 707,
+											"width": 255.68701171875,
+											"height": 13,
+											"text": "-daftarFilm: List<Film>",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
@@ -1080,7 +1260,7 @@
 									"left": 1408,
 									"top": 657,
 									"width": 265.68701171875,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1104,7 +1284,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 1413,
-											"top": 715,
+											"top": 730,
 											"width": 255.68701171875,
 											"height": 13,
 											"text": "+Film(judul: String, durasi: int, genre: String)",
@@ -1122,7 +1302,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 1413,
-											"top": 730,
+											"top": 745,
 											"width": 255.68701171875,
 											"height": 13,
 											"text": "+TampilkanDaftarFilm()",
@@ -1132,7 +1312,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 1408,
-									"top": 710,
+									"top": 725,
 									"width": 265.68701171875,
 									"height": 38
 								},
@@ -1976,7 +2156,7 @@
 											"top": 560,
 											"width": 245.60693359375,
 											"height": 13,
-											"text": "+prosesPembayaran(jumlah: double): void",
+											"text": "+prosesPembayaran(jumlah: double)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2182,7 +2362,7 @@
 											"top": 560,
 											"width": 245.60693359375,
 											"height": 13,
-											"text": "+prosesPembayaran(jumlah: double): void",
+											"text": "+prosesPembayaran(jumlah: double)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2272,8 +2452,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 886,
-									"top": 367,
+									"left": 877,
+									"top": 383,
 									"width": 64.669921875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2296,8 +2476,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 927,
-									"top": 355,
+									"left": 918,
+									"top": 371,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2318,8 +2498,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 901,
-									"top": 392,
+									"left": 890,
+									"top": 406,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2340,8 +2520,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 866,
-									"top": 330,
+									"left": 880,
+									"top": 361,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -2362,8 +2542,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 867,
-									"top": 320,
+									"left": 881,
+									"top": 351,
 									"width": 18.8017578125,
 									"height": 13,
 									"alpha": 0.7853981633974483,
@@ -2384,8 +2564,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 844,
-									"top": 349,
+									"left": 857,
+									"top": 380,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2408,7 +2588,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 970,
+									"left": 937,
 									"top": 405,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2429,7 +2609,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 946,
+									"left": 913,
 									"top": 393,
 									"width": 61.4326171875,
 									"height": 13,
@@ -2450,8 +2630,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 948,
-									"top": 430,
+									"left": 914,
+									"top": 429,
 									"width": 21.68359375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -2501,7 +2681,7 @@
 								"$ref": "AAAAAAGTOoPUgRsdq8s="
 							},
 							"lineStyle": 1,
-							"points": "837:333;983:439",
+							"points": "851:363;949:439",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGTOqAaYB9V89I="
@@ -2559,8 +2739,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1176,
-									"top": 373,
+									"left": 1183,
+									"top": 392,
 									"width": 81.986328125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2583,8 +2763,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1208,
-									"top": 360,
+									"left": 1214,
+									"top": 380,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2605,8 +2785,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1233,
-									"top": 398,
+									"left": 1240,
+									"top": 417,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2627,8 +2807,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1167,
-									"top": 406,
+									"left": 1204,
+									"top": 405,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -2649,7 +2829,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1162,
+									"left": 1198,
 									"top": 393,
 									"height": 13,
 									"alpha": 0.7853981633974483,
@@ -2670,8 +2850,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1169,
-									"top": 431,
+									"left": 1207,
+									"top": 430,
 									"width": 19.5126953125,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2694,8 +2874,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1267,
-									"top": 341,
+									"left": 1242,
+									"top": 379,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -2715,8 +2895,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1257,
-									"top": 331,
+									"left": 1232,
+									"top": 370,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -2735,8 +2915,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1282,
-									"top": 362,
+									"left": 1258,
+									"top": 399,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -2786,7 +2966,7 @@
 								"$ref": "AAAAAAGTOoeEjxtnLog="
 							},
 							"lineStyle": 1,
-							"points": "1154:439;1297:346",
+							"points": "1192:439;1272:383",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGTOqFzLiqfAHk="
@@ -2844,8 +3024,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1254,
-									"top": 606,
+									"left": 1257,
+									"top": 623,
 									"width": 93.6025390625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2868,8 +3048,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1294,
-									"top": 620,
+									"left": 1298,
+									"top": 637,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2890,8 +3070,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1311,
-									"top": 579,
+									"left": 1314,
+									"top": 594,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2913,7 +3093,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 1377,
-									"top": 638,
+									"top": 649,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -2935,7 +3115,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 1370,
-									"top": 650,
+									"top": 661,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -2955,8 +3135,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1388,
-									"top": 615,
+									"left": 1387,
+									"top": 624,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2979,8 +3159,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1223,
-									"top": 574,
+									"left": 1230,
+									"top": 596,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -3000,8 +3180,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1220,
-									"top": 587,
+									"left": 1228,
+									"top": 610,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -3020,8 +3200,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1226,
-									"top": 547,
+									"left": 1232,
+									"top": 569,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -3071,7 +3251,7 @@
 								"$ref": "AAAAAAGTOo/ZZBwzQs0="
 							},
 							"lineStyle": 1,
-							"points": "1407:641;1205:557",
+							"points": "1407:650;1211:580",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGTOqI90Eq3BJ0="
@@ -3129,8 +3309,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1443,
-									"top": 478,
+									"left": 1446,
+									"top": 496,
 									"width": 108.7353515625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3153,8 +3333,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1511,
-									"top": 474,
+									"left": 1514,
+									"top": 492,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3175,8 +3355,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1468,
-									"top": 485,
+									"left": 1471,
+									"top": 505,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3195,7 +3375,7 @@
 								"$ref": "AAAAAAGTOolutRu3ENI="
 							},
 							"lineStyle": 1,
-							"points": "1444:346;1522:631",
+							"points": "1451:383;1521:631",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGTOqMlb1TNmzA="
@@ -3228,8 +3408,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1062,
-									"top": 620,
+									"left": 1068,
+									"top": 651,
 									"width": 58.169921875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3252,8 +3432,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1077,
-									"top": 625,
+									"left": 1083,
+									"top": 656,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3274,8 +3454,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 1120,
-									"top": 611,
+									"left": 1126,
+									"top": 640,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3294,7 +3474,7 @@
 								"$ref": "AAAAAAGTOpV6uxyNpMc="
 							},
 							"lineStyle": 1,
-							"points": "1128:687;1084:557",
+							"points": "1126:687;1099:617",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGTOqR/86bL8dc="
@@ -3327,8 +3507,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 838,
-									"top": 603,
+									"left": 815,
+									"top": 629,
 									"width": 58.169921875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3351,8 +3531,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 859,
-									"top": 590,
+									"left": 837,
+									"top": 616,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3373,8 +3553,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 884,
-									"top": 628,
+									"left": 859,
+									"top": 656,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3393,7 +3573,7 @@
 								"$ref": "AAAAAAGTOprsFBzNFF4="
 							},
 							"lineStyle": 1,
-							"points": "777:687;975:557",
+							"points": "785:687;919:611",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGTOqSV67IUxCo="
@@ -3426,8 +3606,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 565,
-									"top": 378,
+									"left": 550,
+									"top": 395,
 									"width": 146.3388671875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3450,8 +3630,8 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 647,
-									"top": 390,
+									"left": 631,
+									"top": 407,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3472,8 +3652,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 619,
-									"top": 355,
+									"left": 606,
+									"top": 370,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3492,7 +3672,7 @@
 								"$ref": "AAAAAAGTOoPUgRsdq8s="
 							},
 							"lineStyle": 1,
-							"points": "684:333;575.660400390625:414.6907998361895",
+							"points": "656:363;575.660400390625:415.1592586741728",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGTOqYpVt0bw5s="
@@ -3787,6 +3967,16 @@
 							"name": "nomorTelepon",
 							"visibility": "private",
 							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGTP1tR2gW9n8Y=",
+							"_parent": {
+								"$ref": "AAAAAAGTOoPUgBsbeG4="
+							},
+							"name": "daftarPengguna",
+							"visibility": "private",
+							"type": "List<Pengguna>"
 						}
 					],
 					"operations": [
@@ -3834,6 +4024,34 @@
 								"$ref": "AAAAAAGTOoPUgBsbeG4="
 							},
 							"name": "TampilkanPelanggan"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGTP3Vtzz56ZNo=",
+							"_parent": {
+								"$ref": "AAAAAAGTOoPUgBsbeG4="
+							},
+							"name": "prosesPembayaran",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTP/Ebt/ohPpE=",
+									"_parent": {
+										"$ref": "AAAAAAGTP3Vtzz56ZNo="
+									},
+									"name": "Tiket tiket",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTP/Ebt/oiRC4=",
+									"_parent": {
+										"$ref": "AAAAAAGTP3Vtzz56ZNo="
+									},
+									"name": "Pembayaran pembayaran",
+									"type": ""
+								}
+							]
 						}
 					]
 				},
@@ -3885,7 +4103,7 @@
 								"$ref": "AAAAAAGTOoeEjhtl2y8="
 							},
 							"name": "idTiket",
-							"visibility": "protected",
+							"visibility": "private",
 							"type": "String"
 						},
 						{
@@ -3895,7 +4113,7 @@
 								"$ref": "AAAAAAGTOoeEjhtl2y8="
 							},
 							"name": "jenis",
-							"visibility": "protected",
+							"visibility": "private",
 							"type": "String"
 						},
 						{
@@ -3905,8 +4123,42 @@
 								"$ref": "AAAAAAGTOoeEjhtl2y8="
 							},
 							"name": "harga",
-							"visibility": "protected",
+							"visibility": "private",
 							"type": "double"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGTP3XZoVHFJQc=",
+							"_parent": {
+								"$ref": "AAAAAAGTOoeEjhtl2y8="
+							},
+							"name": "film",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAGTOo/ZZBwxrv0="
+							}
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGTP3Ypy1L+HFY=",
+							"_parent": {
+								"$ref": "AAAAAAGTOoeEjhtl2y8="
+							},
+							"name": "tiketTersedia",
+							"visibility": "private",
+							"type": "List<Tiket>"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGTP+3MquvqI5I=",
+							"_parent": {
+								"$ref": "AAAAAAGTOoeEjhtl2y8="
+							},
+							"name": "jadwal",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAGTOolutRu1axc="
+							}
 						}
 					],
 					"operations": [
@@ -3954,6 +4206,25 @@
 								"$ref": "AAAAAAGTOoeEjhtl2y8="
 							},
 							"name": "TampilkanTiketTersedia"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGTP3baSFRbN9A=",
+							"_parent": {
+								"$ref": "AAAAAAGTOoeEjhtl2y8="
+							},
+							"name": "HaputTiket",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGTP+6QQu2jGJU=",
+									"_parent": {
+										"$ref": "AAAAAAGTP3baSFRbN9A="
+									},
+									"name": "Tiket tiket",
+									"type": ""
+								}
+							]
 						}
 					]
 				},
@@ -4030,6 +4301,28 @@
 							"name": "tiketTerjual",
 							"visibility": "private",
 							"type": "List<Tiket>"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGTP3hiMIef/8A=",
+							"_parent": {
+								"$ref": "AAAAAAGTOolutRu1axc="
+							},
+							"name": "film",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAGTOo/ZZBwxrv0="
+							}
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGTP3iZuoisAZg=",
+							"_parent": {
+								"$ref": "AAAAAAGTOolutRu1axc="
+							},
+							"name": "daftarJadwal",
+							"visibility": "private",
+							"type": "List<Jadwal>"
 						}
 					],
 					"operations": [
@@ -4116,6 +4409,14 @@
 								"$ref": "AAAAAAGTOolutRu1axc="
 							},
 							"name": "TampilkanDaftarJadwal"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGTP3l0xor+23Q=",
+							"_parent": {
+								"$ref": "AAAAAAGTOolutRu1axc="
+							},
+							"name": "HapusJadwal"
 						}
 					]
 				},
@@ -4189,6 +4490,16 @@
 							"name": "genre",
 							"visibility": "private",
 							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGTP3er+4AsFGE=",
+							"_parent": {
+								"$ref": "AAAAAAGTOo/ZZBwxrv0="
+							},
+							"name": "daftarFilm",
+							"visibility": "private",
+							"type": "List<Film>"
 						}
 					],
 					"operations": [
@@ -4437,15 +4748,6 @@
 									},
 									"name": "jumlah",
 									"type": "double"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGTOp7L+h2bwGc=",
-									"_parent": {
-										"$ref": "AAAAAAGTOp50pR2T0J8="
-									},
-									"type": "void",
-									"direction": "return"
 								}
 							]
 						}
@@ -4491,15 +4793,6 @@
 									},
 									"name": "jumlah",
 									"type": "double"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGTOp+2OR3R+Ps=",
-									"_parent": {
-										"$ref": "AAAAAAGTOp9ihx3JJTg="
-									},
-									"type": "void",
-									"direction": "return"
 								}
 							]
 						}

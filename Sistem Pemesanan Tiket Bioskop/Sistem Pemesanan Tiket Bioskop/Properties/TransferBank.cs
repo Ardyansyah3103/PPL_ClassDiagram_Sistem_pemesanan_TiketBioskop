@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
 {
-    class TransferBank : Pembayaran
+    public class TransferBank : Pembayaran
     {
         public void ProsesPembayaran(double jumlah)
         {

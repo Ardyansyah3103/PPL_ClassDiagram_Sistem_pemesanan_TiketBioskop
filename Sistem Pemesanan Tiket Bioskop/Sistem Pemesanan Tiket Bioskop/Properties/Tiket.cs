@@ -1,46 +1,49 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
 {
-    // Kelas Tiket (Generalization) / (inheritance)
     public class Tiket
     {
-        protected string id;
-        protected string jenis;
-        protected double harga;
-        protected static List<Tiket> tiketTersedia = new List<Tiket>();
+        private string id;
+        private string jenis;
+        private double harga;
+        private Film film;
+        private Jadwal jadwal; 
+        private static List<Tiket> tiketTersedia = new List<Tiket>();
 
-        public Tiket(string id, string jenis, double harga)
+        public Tiket(string id, string jenis, double harga, Film film, Jadwal jadwal)
         {
             this.id = id;
             this.jenis = jenis;
             this.harga = harga;
+            this.film = film;
+            this.jadwal = jadwal;
             tiketTersedia.Add(this);
-        } 
-
-
-
-        public virtual string GetInfo()
-        {
-            return $"ID Tiket: {id}, Jenis: {jenis}, Harga: {harga}";
+            jadwal.TambahkanTiket(this); 
         }
 
-        //getter id
+        public double GetHarga()
+        {
+            return harga;
+        }
+
         public string GetId()
         {
             return id;
         }
 
-
-        // Tambahkan metode GetHarga
-        public double GetHarga()
+        public virtual string GetInfo()
         {
-            return harga;
+            return $"ID Tiket: {id}, Jenis: {jenis}, Harga: {harga}, Film: {film.GetJudul()}";
         }
+
+        public static void HapusTiket(Tiket tiket)
+        {
+            tiketTersedia.Remove(tiket);
+            Console.WriteLine($"Tiket dengan ID {tiket.id} telah dihapus.");
+        }
+
 
         public static void TampilkanTiketTersedia()
         {

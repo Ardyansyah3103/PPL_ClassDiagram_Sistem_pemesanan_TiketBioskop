@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
-{
-    // Kelas Pengguna
+{ 
     public class Pengguna
     {
         private string nama;

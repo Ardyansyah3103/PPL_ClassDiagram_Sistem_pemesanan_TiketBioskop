@@ -1,27 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
 {
-    // Kelas Jadwal (Komposisi)
     public class Jadwal
     {
         private string id;
         private string waktuMulai;
         private string waktuSelesai;
         private string ruangan;
+        private Film film;
         private static List<Jadwal> daftarJadwal = new List<Jadwal>();
         private List<Tiket> tiketTerjual = new List<Tiket>();
 
-        public Jadwal(string id, string waktuMulai, string waktuSelesai, string ruangan)
+        public Jadwal(string id, string waktuMulai, string waktuSelesai, string ruangan, Film film)
         {
             this.id = id;
             this.waktuMulai = waktuMulai;
             this.waktuSelesai = waktuSelesai;
             this.ruangan = ruangan;
+            this.film = film;
             daftarJadwal.Add(this);
         }
 
@@ -30,9 +28,25 @@ namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
             tiketTerjual.Add(tiket);
         }
 
+        public string Id
+        {
+            get { return id; }
+        }
+
+        public void HapusJadwal()
+        {
+            Console.WriteLine($"Menghapus jadwal {Id} untuk film {film.GetJudul()} dan semua tiketnya...");
+            foreach (var tiket in tiketTerjual)
+            {
+                Tiket.HapusTiket(tiket); 
+            }
+            tiketTerjual.Clear();
+        }
+
+
         public string GetInfo()
         {
-            return $"ID Jadwal: {id}, Waktu Mulai: {waktuMulai}, Waktu Selesai: {waktuSelesai}, Ruangan: {ruangan}";
+            return $"ID Jadwal: {id}, Film: {film.GetJudul()}, Waktu Mulai: {waktuMulai}, Waktu Selesai: {waktuSelesai}, Ruangan: {ruangan}";
         }
 
         public static void TampilkanDaftarJadwal()

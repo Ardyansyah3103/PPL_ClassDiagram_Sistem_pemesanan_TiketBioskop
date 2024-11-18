@@ -1,16 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
-{ // subclass / Childern 
+{
     public class TiketVIP : Tiket
     {
         private string fasilitasTambahan;
 
-        public TiketVIP(string id, double harga, string fasilitasTambahan) : base(id, "VIP", harga)
+        public TiketVIP(string id, double harga, string fasilitasTambahan, Film film, Jadwal jadwal)
+            : base(id, "VIP", harga, film, jadwal) 
         {
             this.fasilitasTambahan = fasilitasTambahan;
         }

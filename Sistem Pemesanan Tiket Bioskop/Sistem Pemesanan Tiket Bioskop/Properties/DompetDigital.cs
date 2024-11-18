@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
 {
-    class DompetDigital : Pembayaran
+    public class DompetDigital : Pembayaran
     {
         public void ProsesPembayaran(double jumlah)
         {
