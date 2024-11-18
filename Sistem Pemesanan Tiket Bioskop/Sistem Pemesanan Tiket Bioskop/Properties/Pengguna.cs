@@ -36,9 +36,10 @@ namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
             }
         }
 
+        
         public void ProsesPembayaran(Tiket tiket, Pembayaran pembayaran)
         {
-            Console.WriteLine($"\n{nama} memproses pembayaran untuk tiket dengan ID: {tiket.id}");
+            Console.WriteLine($"\n{nama} memproses pembayaran untuk tiket dengan ID: {tiket.GetId()}");
             pembayaran.ProsesPembayaran(tiket.GetHarga());
         }
     }

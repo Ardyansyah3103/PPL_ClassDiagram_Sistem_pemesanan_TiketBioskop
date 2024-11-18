@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
 {
-    // Kelas Tiket (Generalization)
+    // Kelas Tiket (Generalization) / (inheritance)
     public class Tiket
     {
-        public string id;
+        protected string id;
         protected string jenis;
         protected double harga;
         protected static List<Tiket> tiketTersedia = new List<Tiket>();
@@ -20,12 +20,21 @@ namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
             this.jenis = jenis;
             this.harga = harga;
             tiketTersedia.Add(this);
-        }
+        } 
+
+
 
         public virtual string GetInfo()
         {
             return $"ID Tiket: {id}, Jenis: {jenis}, Harga: {harga}";
         }
+
+        //getter id
+        public string GetId()
+        {
+            return id;
+        }
+
 
         // Tambahkan metode GetHarga
         public double GetHarga()

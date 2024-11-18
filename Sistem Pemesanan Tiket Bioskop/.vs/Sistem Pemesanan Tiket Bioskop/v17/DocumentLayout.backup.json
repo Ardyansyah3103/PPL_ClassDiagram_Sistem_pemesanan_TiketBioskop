@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\sistem pemesanan tiket bioskop\\properties\\pengguna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\pengguna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\sistem pemesanan tiket bioskop\\properties\\tiket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\tiket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\sistem pemesanan tiket bioskop\\properties\\pengguna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\pengguna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\sistem pemesanan tiket bioskop\\properties\\tiketvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\tiketvip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\hp\\documents\\semester 3\\ppl\\ppl_classdiagram_sistem_pemesanan_tiketbioskop\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\sistem pemesanan tiket bioskop\\properties\\tiketreguler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\sistem pemesanan tiket bioskop\\properties\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\properties\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|c:\\users\\hp\\documents\\semester 3\\ppl\\ppl_classdiagram_sistem_pemesanan_tiketbioskop\\sistem pemesanan tiket bioskop\\sistem pemesanan tiket bioskop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|solutionrelative:sistem pemesanan tiket bioskop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3D08659-E99A-4D34-98F6-0483F37079DD}|Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop.csproj|C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\sistem pemesanan tiket bioskop\\properties\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,8 +66,8 @@
               "Title": "TiketVIP.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TiketVIP.cs",
               "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\TiketVIP.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TiketVIP.cs",
-              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\TiketVIP.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TiketVIP.cs*",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\TiketVIP.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T04:34:55.331Z",
@@ -114,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Pembayaran.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Pembayaran.cs",
               "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\Pembayaran.cs",
@@ -140,12 +140,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TiketReguler.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TiketReguler.cs",
               "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\TiketReguler.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TiketReguler.cs",
-              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\TiketReguler.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\TiketReguler.cs*",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\TiketReguler.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T04:34:10.048Z",
@@ -153,13 +153,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Tiket.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Tiket.cs",
               "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\Tiket.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Tiket.cs",
-              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\Tiket.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCMAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Tiket.cs*",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\Tiket.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T04:32:55.413Z",
               "EditorCaption": ""
@@ -178,26 +178,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Pengguna.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Pengguna.cs",
               "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Properties\\Pengguna.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Pengguna.cs",
-              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\Pengguna.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Properties\\Pengguna.cs*",
+              "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Properties\\Pengguna.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T04:29:08.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Program.cs",
               "RelativeDocumentMoniker": "Sistem Pemesanan Tiket Bioskop\\Program.cs",
               "ToolTip": "C:\\Users\\HP\\Documents\\SEMESTER 3\\PPL\\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\\Sistem Pemesanan Tiket Bioskop\\Sistem Pemesanan Tiket Bioskop\\Program.cs",
               "RelativeToolTip": "Sistem Pemesanan Tiket Bioskop\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T04:26:09.413Z",
               "EditorCaption": ""

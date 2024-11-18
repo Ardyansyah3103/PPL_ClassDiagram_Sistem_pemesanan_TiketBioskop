@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
-{
+{ // subclass / Childern 
     public class TiketVIP : Tiket
     {
         private string fasilitasTambahan;

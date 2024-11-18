@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
-{
+{ // subclass / childern
     public class TiketReguler : Tiket
     {
         public TiketReguler(string id, double harga) : base(id, "Reguler", harga) { }

@@ -5,3 +5,10 @@ C:\Users\asus\OneDrive\Dokumen\Capek Nugas\Semester 3\Perancangan dan Analis Alg
 C:\Users\asus\OneDrive\Dokumen\Capek Nugas\Semester 3\Perancangan dan Analis Algoritma\TUGAS MENUJU FP\Sistem Pemesanan Tiket Bioskop\Sistem Pemesanan Tiket Bioskop\obj\Debug\Sistem Pemesanan Tiket Bioskop.csproj.CoreCompileInputs.cache
 C:\Users\asus\OneDrive\Dokumen\Capek Nugas\Semester 3\Perancangan dan Analis Algoritma\TUGAS MENUJU FP\Sistem Pemesanan Tiket Bioskop\Sistem Pemesanan Tiket Bioskop\obj\Debug\Sistem Pemesanan Tiket Bioskop.exe
 C:\Users\asus\OneDrive\Dokumen\Capek Nugas\Semester 3\Perancangan dan Analis Algoritma\TUGAS MENUJU FP\Sistem Pemesanan Tiket Bioskop\Sistem Pemesanan Tiket Bioskop\obj\Debug\Sistem Pemesanan Tiket Bioskop.pdb
+C:\Users\HP\Documents\SEMESTER 3\PPL\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\Sistem Pemesanan Tiket Bioskop\Sistem Pemesanan Tiket Bioskop\bin\Debug\Sistem Pemesanan Tiket Bioskop.exe.config
+C:\Users\HP\Documents\SEMESTER 3\PPL\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\Sistem Pemesanan Tiket Bioskop\Sistem Pemesanan Tiket Bioskop\bin\Debug\Sistem Pemesanan Tiket Bioskop.exe
+C:\Users\HP\Documents\SEMESTER 3\PPL\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\Sistem Pemesanan Tiket Bioskop\Sistem Pemesanan Tiket Bioskop\bin\Debug\Sistem Pemesanan Tiket Bioskop.pdb
+C:\Users\HP\Documents\SEMESTER 3\PPL\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\Sistem Pemesanan Tiket Bioskop\Sistem Pemesanan Tiket Bioskop\obj\Debug\Sistem Pemesanan Tiket Bioskop.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\SEMESTER 3\PPL\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\Sistem Pemesanan Tiket Bioskop\Sistem Pemesanan Tiket Bioskop\obj\Debug\Sistem Pemesanan Tiket Bioskop.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\SEMESTER 3\PPL\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\Sistem Pemesanan Tiket Bioskop\Sistem Pemesanan Tiket Bioskop\obj\Debug\Sistem Pemesanan Tiket Bioskop.exe
+C:\Users\HP\Documents\SEMESTER 3\PPL\PPL_ClassDiagram_Sistem_pemesanan_TiketBioskop\Sistem Pemesanan Tiket Bioskop\Sistem Pemesanan Tiket Bioskop\obj\Debug\Sistem Pemesanan Tiket Bioskop.pdb
