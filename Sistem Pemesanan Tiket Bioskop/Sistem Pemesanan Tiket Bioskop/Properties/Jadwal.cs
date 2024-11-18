@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
 {
     // Kelas Jadwal (Komposisi)
-    class Jadwal
+    public class Jadwal
     {
         private string id;
         private string waktuMulai;
         private string waktuSelesai;
         private string ruangan;
+        private static List<Jadwal> daftarJadwal = new List<Jadwal>();
         private List<Tiket> tiketTerjual = new List<Tiket>();
 
         public Jadwal(string id, string waktuMulai, string waktuSelesai, string ruangan)
@@ -21,6 +22,7 @@ namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
             this.waktuMulai = waktuMulai;
             this.waktuSelesai = waktuSelesai;
             this.ruangan = ruangan;
+            daftarJadwal.Add(this);
         }
 
         public void TambahkanTiket(Tiket tiket)
@@ -33,9 +35,13 @@ namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
             return $"ID Jadwal: {id}, Waktu Mulai: {waktuMulai}, Waktu Selesai: {waktuSelesai}, Ruangan: {ruangan}";
         }
 
-        public List<Tiket> GetTiketTerjual()
+        public static void TampilkanDaftarJadwal()
         {
-            return tiketTerjual;
+            Console.WriteLine("\nDaftar Jadwal:");
+            foreach (var jadwal in daftarJadwal)
+            {
+                Console.WriteLine(jadwal.GetInfo());
+            }
         }
     }
 }

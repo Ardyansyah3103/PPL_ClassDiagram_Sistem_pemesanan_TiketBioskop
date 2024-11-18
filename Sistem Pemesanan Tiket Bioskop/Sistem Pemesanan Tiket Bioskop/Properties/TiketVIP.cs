@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
 {
-    class TiketVIP : Tiket
+    public class TiketVIP : Tiket
     {
         private string fasilitasTambahan;
 
@@ -15,7 +15,6 @@ namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
             this.fasilitasTambahan = fasilitasTambahan;
         }
 
-        // Gunakan override
         public override string GetInfo()
         {
             return base.GetInfo() + $", Fasilitas Tambahan: {fasilitasTambahan}";

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Sistem_Pemesanan_Tiket_Bioskop.Properties
 {
-    class TiketReguler : Tiket
+    public class TiketReguler : Tiket
     {
-        public TiketReguler(string id, double harga) : base(id, "Reguler", harga)
-        {
-        }
+        public TiketReguler(string id, double harga) : base(id, "Reguler", harga) { }
     }
 }
